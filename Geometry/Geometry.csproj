@@ -46,7 +46,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Circle.cs" />
-    <Compile Include="EquilateralTriangle.cs" />
+    <Compile Include="Triangles\EquilateralTriangle.cs" />
     <Compile Include="IHaveDiagonal.cs" />
     <Compile Include="IHaveDiameter.cs" />
     <Compile Include="Program.cs" />
@@ -54,7 +54,9 @@
     <Compile Include="Rectangle.cs" />
     <Compile Include="Shape.cs" />
     <Compile Include="Square.cs" />
-    <Compile Include="Triangle.cs" />
+    <Compile Include="Triangles\IsoscelesTriangle.cs" />
+    <Compile Include="Triangles\RightTriangle.cs" />
+    <Compile Include="Triangles\Triangle.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

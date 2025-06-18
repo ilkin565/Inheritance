@@ -6,6 +6,7 @@ using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Geometry.Triangles;
 
 namespace Geometry
 {
@@ -45,7 +46,9 @@ namespace Geometry
                     new Square(100, 200, 300, 3, Color.Red),
                     new Rectangle(100, 200, 320, 200, 3, Color.Blue),
                     new Circle(100, 420, 0, 3, Color.Green),
-                    new EquilateralTriangle(100, 100, 320, 3, Color.Orange)
+                    new EquilateralTriangle(100, 100, 320, 3, Color.Orange),
+                    new RightTriangle(80, 60, 50, 50, 2, Color.Violet),
+                    new IsoscelesTriangle(100, 80, 200, 50, 2, Color.Yellow)
                 };
 
                 foreach (Shape shape in shapes)

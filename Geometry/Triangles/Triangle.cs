@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Geometry
+namespace Geometry.Triangles
 {
 	abstract class Triangle : Shape
 	{
